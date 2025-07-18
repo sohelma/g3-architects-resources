@@ -20,7 +20,7 @@ box-sizing: border-box;}
 .nav-link{text-decoration: none;color: #424242;}
 .nav-item{list-style: none;margin-right: 30px;}
 .navbar,.banner{max-width: 1170px;margin: 0 auto;}
-
+.navlink a:hover{color: tomato;text-decoration: underline;}
 .banner-txt{text-align: center;margin: 0 auto;max-width: 850px;margin-bottom: 50px;}
 .banner h2{font-size: 2.5rem;}
 .banner p{font-size: 1rem;color: #8a8989;margin: 25px 0;}
@@ -89,7 +89,9 @@ footer h5{color: #8a8989;}
 /* medium size-TABLET */ 
 @media screen and (min-width:576px)and (max-width:992px)
 {.team{flex-direction: column;
-     background-color: lightgray;   }
+     background-color: lightgrey;   }
      .feature{padding: 50px 70px;}
-   .team-image,.card_conten,.sponsor-logo{display: grid;grid-template-columns: repeat(2,1fr);justify-items: center;}
+   .team-image,.card_conten,.sponsor-logo{display: grid;grid-template-columns: repeat(2,1fr);
+    justify-items: center;}
+    
     }
