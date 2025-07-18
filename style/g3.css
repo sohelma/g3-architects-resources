@@ -15,8 +15,10 @@ box-sizing: border-box;}
 .display-flex{display: flex;}
 /* header */
 /* navbar */
+
 .header{background-color: rgba(255, 144, 14, 0.1);margin-bottom: 50px;}
 .navbar{align-items: center;justify-content: space-between;padding: 40px 0;}
+.navbar h3{color: #FF900E;}
 .nav-link{text-decoration: none;color: #424242;}
 .nav-item{list-style: none;margin-right: 30px;}
 .navbar,.banner{max-width: 1170px;margin: 0 auto;}
