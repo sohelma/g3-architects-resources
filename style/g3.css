@@ -75,7 +75,10 @@ box-sizing: border-box;}
  /* footer */
  footer{background-color: rgba(255, 144, 14, 0.1);max-width: 1170px;margin: 50px auto;height: 50px;  line-height: 50px;text-align: center;}
 footer h5{color: #8a8989;}
-
+.sponsor-logo img {
+  width: 100px;     /* adjust as needed */
+  height: auto;    /* keeps image ratio */
+}
 
 /* small size-MOBILE---------------------------------------------------- */
     @media screen and (max-width:576px){.navbar,.navlink,.team{flex-direction: column;
