@@ -35,7 +35,7 @@ box-sizing: border-box;}
     .banner-img{width:100%;margin-bottom: 50px;}
     /* team */
     .team{display:flex;justify-content: space-between;align-items: center;gap: 50px; max-width: 1170px;margin: 70px auto;}
-    .team-image{display: grid;grid-template-columns: repeat(2,1fr);gap:15px}
+    .team-image{display: grid;grid-template-columns: repeat(2,1fr);gap:15px;box-shadow: 2px 2px 18px yellow}
     .txt1{color: rgb(145, 143, 143);}
     .txt2{color: #FF900E;}
     .team-feature h2{font-size: 2.5rem;font-weight: 700px;}
@@ -47,10 +47,12 @@ box-sizing: border-box;}
       .f-card{box-shadow: 0 5px 35px grey;margin: 40px 0;padding: 10px;border-radius: 8px;}
       .feature-start{border-left: 5px solid #FF900E;padding-left: 20px;}
       .feature-image img{width: 100%;}
+      .feature-image img:hover{box-shadow: 2px 2px 18px blueviolet}
       .feature-text h3{font-size: 1.6rem;font-weight: 700;margin-bottom: 30px;}
       .f-card h3{font-weight: 600;font-size: 1.3rem;}
       .f-card p{color: gray;font-size: .8rem;}
       #Experience-badge{padding: 40px;background-color: #FF900E;border-radius: 8px;border: none;margin-top: -120px;margin-left:-30px;}
+      #Experience-badge:hover{box-shadow: 2px 2px 18px yellow}
       #Experience-y{font-weight: 800;font-size: 3rem;color: white}
       #Experience {color: wheat;font-size: 1rem;}
     /* Facts */
