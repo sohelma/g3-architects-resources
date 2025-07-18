@@ -35,7 +35,7 @@ box-sizing: border-box;}
     .banner-img{width:100%;margin-bottom: 50px;}
     /* team */
     .team{display:flex;justify-content: space-between;align-items: center;gap: 50px; max-width: 1170px;margin: 70px auto;}
-    .team-image{display: grid;grid-template-columns: repeat(2,1fr);gap:15px;box-shadow: 2px 2px 18px yellow}
+    .team-image{display: grid;grid-template-columns: repeat(2,1fr);gap:15px;box-shadow: 2px 2px 28px gray}
     .txt1{color: rgb(145, 143, 143);}
     .txt2{color: #FF900E;}
     .team-feature h2{font-size: 2.5rem;font-weight: 700px;}
