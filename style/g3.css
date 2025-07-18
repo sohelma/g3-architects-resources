@@ -1,3 +1,6 @@
+*{margin: 0;
+padding:0;
+box-sizing: border-box;}
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -7,3 +10,86 @@
   font-weight: 600;
   font-style: normal;
 }
+
+/* shared */
+.display-flex{display: flex;}
+/* header */
+/* navbar */
+.header{background-color: rgba(255, 144, 14, 0.1);margin-bottom: 50px;}
+.navbar{align-items: center;justify-content: space-between;padding: 40px 0;}
+.nav-link{text-decoration: none;color: #424242;}
+.nav-item{list-style: none;margin-right: 30px;}
+.navbar,.banner{max-width: 1170px;margin: 0 auto;}
+
+.banner-txt{text-align: center;margin: 0 auto;max-width: 850px;margin-bottom: 50px;}
+.banner h2{font-size: 2.5rem;}
+.banner p{font-size: 1rem;color: #8a8989;margin: 25px 0;}
+.btn1  { font-size: 1rem;
+    padding: 10px 25px;
+    background-color: #FF900E;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-weight: 550;}
+    .btn1:hover{background-color: transparent;border: 2px solid #FF900E;color: #FF900E;}
+    .banner-img{width:100%;margin-bottom: 50px;}
+    /* team */
+    .team{display:flex;justify-content: space-between;align-items: center;gap: 50px; max-width: 1170px;margin: 70px auto;}
+    .team-image{display: grid;grid-template-columns: repeat(2,1fr);gap:15px}
+    .txt1{color: rgb(145, 143, 143);}
+    .txt2{color: #FF900E;}
+    .team-feature h2{font-size: 2.5rem;font-weight: 700px;}
+    .team-feature p{color: #8a8989;margin: 15px 0;}
+    
+    /* feature */
+      .feature{display: grid;grid-template-columns: repeat(2, 1fr);padding: 30px;
+        max-width: 1170px;margin: 0 auto;gap: 50px;}
+      .f-card{box-shadow: 0 5px 35px grey;margin: 40px 0;padding: 10px;border-radius: 8px;}
+      .feature-start{border-left: 5px solid #FF900E;padding-left: 20px;}
+      .feature-image img{width: 100%;}
+      .feature-text h3{font-size: 1.6rem;font-weight: 700;margin-bottom: 30px;}
+      .f-card h3{font-weight: 600;font-size: 1.3rem;}
+      .f-card p{color: gray;font-size: .8rem;}
+      #Experience-badge{padding: 40px;background-color: #FF900E;border-radius: 8px;border: none;margin-top: -120px;margin-left:-30px;}
+      #Experience-y{font-weight: 800;font-size: 3rem;color: white}
+      #Experience {color: wheat;font-size: 1rem;}
+    /* Facts */
+    .facts{max-width: 1170px;margin:50px auto}
+    .facts p{color: #8a8989;margin: 30px 0;}
+    .card_conten{display: grid;grid-template-columns: repeat(4, 1fr);
+    }
+    .card{border: 2px solid #FF900E;padding: 20px;text-align: center;
+    border-radius: 8px;margin-bottom: 50px;width: 155px;height: 155px;}
+    .card h3{margin: 5px 0;}
+    .card p{margin: 5px 0;color: #8a8989;font-size: 12px;}
+
+    .sponsors{max-width: 1170px;margin:0 auto}
+    /* To make a color image appear grey */
+    .sponsor-logo{display: grid;grid-template-columns:repeat(5, 1fr);
+    filter: grayscale(100%);margin: 70px 0;}
+ .sponsors-content{text-align: center;max-width: 529px;margin: 0 auto;}
+ .sponsors-content p{margin: 20px 0;color:#8a8989;}
+ /* footer */
+ footer{background-color: rgba(255, 144, 14, 0.1);max-width: 1170px;margin: 50px auto;height: 50px;  line-height: 50px;text-align: center;}
+footer h5{color: #8a8989;}
+
+
+/* small size-MOBILE---------------------------------------------------- */
+    @media screen and (max-width:576px){.navbar,.navlink,.team{flex-direction: column;
+     background-color: lightblue;   }
+     .team-image,.card_conten,.sponsor-logo,.feature{display: grid;grid-template-columns: repeat(1,1fr);}
+     .sponsor-logo{justify-items: center;}
+        .feature{margin: 50px 70px;}
+        .card_conten{justify-items: center;}
+        .sponsor-logo{gap: 20px;}
+    }
+    
+
+
+/* medium size-TABLET */ 
+@media screen and (min-width:576px)and (max-width:992px)
+{.team{flex-direction: column;
+     background-color: lightgray;   }
+     .feature{padding: 50px 70px;}
+   .team-image,.card_conten,.sponsor-logo{display: grid;grid-template-columns: repeat(2,1fr);justify-items: center;}
+    }
